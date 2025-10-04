@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Получаем токен бота
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
-if not BOT_TOKEN:
-    raise ValueError("❌ BOT_TOKEN не найден в файле .env!")
+if not TELEGRAM_BOT_TOKEN:
+    raise ValueError("❌ TELEGRAM_BOT_TOKEN не найден в файле .env!")
 
-print(f"Токен бота загружен: {BOT_TOKEN[:10]}...")
+print(f"Токен бота загружен: {TELEGRAM_BOT_TOKEN[:10]}...")
