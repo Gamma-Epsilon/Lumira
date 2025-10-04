@@ -53,7 +53,7 @@ venv.bak/
 .vscode/
 
 # Environment variables
-.env
+../.env
 .env.local
 .env.*.local
 
