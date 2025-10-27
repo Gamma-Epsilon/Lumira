@@ -56,7 +56,6 @@ venv.bak/
 ../.env
 .env.local
 .env.*.local
-.env
 
 # Database
 *.db
